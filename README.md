@@ -226,7 +226,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 |-------------------------------|------------|-----------------|--------------------------------|----------------------------------|
 | **Triage Wait Time**          | ≤15 min    | 8.4%            | ██░░░░░░░░░░░░░░░░░░ (8.4%)    | 91.6% patients exceed target by 14.8 min avg |
 | **Physician Consult Time**    | ≤60 min    | 12.5%           | ███░░░░░░░░░░░░░░░░░ (12.5%)   | 87.5% consults exceed target by 23.2 min avg |
-| **Total ER Length of Stay**   | ≤240 min   | 100%            | ████████████████████ (100%)    | All acuity levels meet target (max ALOS=214 min) |
+| **Total ER Length of Stay**   | ≤240 min   | 68%            | █████████████░░░░░░░░░ (68%)    | 68 % acuity levels meet target (max ALOS=214 min) |
 | **Patient Satisfaction Score**| ≥4.2       | 19.05%          | ████░░░░░░░░░░░░░░░░ (19.05%)  | 6 PM shows lowest ratings (3.15/5) |
 
 
