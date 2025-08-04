@@ -42,7 +42,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 ## **3. Project Goals**  
 1. **Reduce LWBS rate** to ≤5% by optimizing triage workflows  
 2. **Achieve 90% KPI compliance** for triage (15 mins) and physician consult (60 mins)  
-3. **Increase patient satisfaction** from 3.4 to 4.0+  
+3. **Increase patient satisfaction** from 3.4 to 4.2+  
 4. **Resolve data gaps** causing 41.1% lab order detail omissions  
 
 ---
@@ -51,8 +51,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 
 ### **Category 1: Operational Bottlenecks**
 - **Triage Delays:** 60.74% fail 15-min NHS target 
-- **Imaging Delays:** "Imaging Completed" = longest event (30.7 mins)  
-- **Peak Hour Strain:** 4–8 PM shifts have 28% longer waits  
+- **Peak Hour Strain:** 12 PM shifts have -13.96 hoh% change longer waits  
 
 ### **Category 2: Patient Experience**
 - **Wait Time Ratings:** 2.7/5 impacts satisfaction 3x more than staff interactions  
@@ -67,7 +66,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 ### **Category 4: Resource Allocation**
 - **Physician Shortfall:** 1:250 causes 73-min waits for critical patients  
 - **Triage Understaffed:** 10 triage nurses for 5,000 encounters  
-- **Evening Gap:** 32% fewer nurses during 4–8 PM  
+
 
 ---
 
@@ -220,14 +219,14 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 3. **Missing test details** in 41% of lab orders block £200K+ cost optimization opportunities.  
 
 **Performance Snapshot:**
-[ KPI Compliance Rates ]
 
-| KPI                           | NHS TARGET | COMPLIANCE RATE | PERFORMANCE VISUALIZATION      | KEY INSIGHTS                     |
-|-------------------------------|------------|-----------------|--------------------------------|----------------------------------|
-| **Triage Wait Time**          | ≤15 min    | 39.26%            | █████░░░░░░░░░░░░░ (39.26%)      | 39.26% patients COMPLIANT WITH  <= 15 Mins  |
-| **Physician Consult Time**    | ≤60 min    | 97%           | ████████████░ (97%)   | 3% consults exceed target by 23.2 min avg |
-| **Total ER Length of Stay**   | ≤240 min   | 68%            | █████████████░░░░░░░░░ (68%)    | 68 % acuity levels meet target (max ALOS=214 min) |
-| **Patient Satisfaction Score**| ≥4.2       | 19.05%          | ████░░░░░░░░░░░░░░░░ (19.05%)  | 6 PM shows lowest ratings (3.15/5) |
+| KPI                      | Actual | Target | Variance | Status       |
+|--------------------------|--------|--------|----------|-------------|
+| Avg. Triage Time         | 20.9m  | 15m    | +39%     | ❌ Urgent    |
+| Left Without Being Seen  | 8.5%   | <2%    | +325%    | ❌ Critical  |
+| Patient Satisfaction     | 3.33   | 4.2    | -20.7%   | ❌ High Risk |
+| Physician-to-Patient     | 1:250  | 1:150  | +67%     | ⚠️ Strained  |
+| Total LOS ≤4hrs          | 67.6%  | 100%   | -32.4%   | ❌ Lagging   |
 
 
 ---
@@ -237,11 +236,10 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 #### **Category 1: Operational Bottlenecks**
 1. **Triage Delays:**
    -  39.26% of patients meet 15-min NHS target  
-   - Avg. triage time = 29.8 mins (99% over target)  
-   - *Impact:* 28% higher LWBS risk for every 5-min delay (R² = 0.93)
+   - Avg. triage time = 20 mins 
+
 
 2. **Testing Backlogs:**
-   - "Imaging Completed" takes 30.7 mins (longest event)  
    - 39.8% imaging orders lack details, blocking root-cause analysis  
    - *Pattern:* Patients needing lab + imaging wait 2.1× longer (142 vs 68 mins)
 
