@@ -327,7 +327,10 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 - **Power BI:** KPI dashboards with NHS target overlays  
 
 **Resource Links:**
-- [Data Cleaning Snowflake](https://app.snowflake.com/prbfrzx/avb74710/w2sAJHhSm3uo#query)  
+- [Data Cleaning Snowflake](https://app.snowflake.com/prbfrzx/avb74710/w2sAJHhSm3uo#query)
+
+  
+![Screenshot_5-8-2025_0330_chat deepseek com](https://github.com/user-attachments/assets/a423f60a-0003-4a66-881c-dfabc1c9f4c4)
 
 
 
