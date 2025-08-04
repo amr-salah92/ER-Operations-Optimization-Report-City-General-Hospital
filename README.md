@@ -50,7 +50,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 ## **4. Insights & Recommendations**
 
 ### **Category 1: Operational Bottlenecks**
-- **Triage Delays:** 91.6% fail 15-min NHS target; avg. triage = 29.8 mins  
+- **Triage Delays:** 58.46% fail 15-min NHS target; avg. triage = 29.8 mins  
 - **Imaging Delays:** "Imaging Completed" = longest event (30.7 mins)  
 - **Peak Hour Strain:** 4–8 PM shifts have 28% longer waits  
 
@@ -215,7 +215,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 
 ### **11. Executive Summary**
 **For ED Clinical Director:**
-1. **Triage bottlenecks** cause 91.6% of patients to exceed 15-min NHS target, costing 425 LWBS monthly.  
+1. **Triage bottlenecks** cause 58.46% of patients to exceed 15-min NHS target, costing 425 LWBS monthly.  
 2. **Peak-hour staffing gaps** (4–8 PM) increase acuity 1 wait times to 73 mins — 15% above average.  
 3. **Missing test details** in 41% of lab orders block £200K+ cost optimization opportunities.  
 
@@ -224,7 +224,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 
 | KPI                           | NHS TARGET | COMPLIANCE RATE | PERFORMANCE VISUALIZATION      | KEY INSIGHTS                     |
 |-------------------------------|------------|-----------------|--------------------------------|----------------------------------|
-| **Triage Wait Time**          | ≤15 min    | 8.4%            | ██░░░░░░░░░░░░░░░░░░ (8.4%)    | 91.6% patients exceed target by 14.8 min avg |
+| **Triage Wait Time**          | ≤15 min    | 41.54%            | ███████░░░░░░░░░░░ (41.54%)      | 41.54% patients COMPLIANT WITH  <= 15 Mins  |
 | **Physician Consult Time**    | ≤60 min    | 12.5%           | ███░░░░░░░░░░░░░░░░░ (12.5%)   | 87.5% consults exceed target by 23.2 min avg |
 | **Total ER Length of Stay**   | ≤240 min   | 68%            | █████████████░░░░░░░░░ (68%)    | 68 % acuity levels meet target (max ALOS=214 min) |
 | **Patient Satisfaction Score**| ≥4.2       | 19.05%          | ████░░░░░░░░░░░░░░░░ (19.05%)  | 6 PM shows lowest ratings (3.15/5) |
@@ -236,7 +236,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 
 #### **Category 1: Operational Bottlenecks**
 1. **Triage Delays:**
-   - Only 8.4% of patients meet 15-min NHS target  
+   -  67.86% of patients meet 15-min NHS target  
    - Avg. triage time = 29.8 mins (99% over target)  
    - *Impact:* 28% higher LWBS risk for every 5-min delay (R² = 0.93)
 
@@ -347,7 +347,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 
 ---
 
-#### **Q1: Why do 91.6% of patients exceed the 15-minute NHS triage target, and what specific workflow step causes the longest delay?**
+#### **Q1: Why do 58.46% of patients exceed the 15-minute NHS triage target, and what specific workflow step causes the longest delay?**
 **A:** The bottleneck occurs during **initial triage documentation** (avg. 29.8 mins), primarily due to:
 - **Sequential processing:** Patients undergo check-in → vitals → assessment linearly (vs. parallel).
 - **Staff gaps:** Only 10 triage nurses handle 5,000 encounters (1:500 ratio).
