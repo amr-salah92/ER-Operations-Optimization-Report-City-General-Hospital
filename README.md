@@ -33,7 +33,7 @@ City General Hospital (CGH) is an NHS-affiliated facility with an Emergency Depa
 
 - **Left Without Being Seen (LWBS):** 8.4% (425/5,000 encounters), exceeding NHS target of ≤5%  
 - **Staffing Ratio:** 1 physician per 250 patients (20 physicians for 5,000 encounters), below NHS standard (1:150)  
-- **KPI Compliance:** Only 8.4% of triages meet 15-minute NHS target  
+- **KPI Compliance:** Only 41.54% of triages meet 15-minute NHS target  
 
 Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000 feedback records.
 
@@ -50,7 +50,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
 ## **4. Insights & Recommendations**
 
 ### **Category 1: Operational Bottlenecks**
-- **Triage Delays:** 58.46% fail 15-min NHS target; avg. triage = 29.8 mins  
+- **Triage Delays:** 58.46% fail 15-min NHS target 
 - **Imaging Delays:** "Imaging Completed" = longest event (30.7 mins)  
 - **Peak Hour Strain:** 4–8 PM shifts have 28% longer waits  
 
@@ -138,7 +138,7 @@ Data covers 5,000 encounters (Jan–Jul 2023), with 39,105 flow events and 2,000
      ENCOUNTER_ID,  
      triage_END_SEC - triage_START_SEC AS triage_duration_sec  
    FROM (...)  
-   HAVING triage_duration_sec < 900; -- Only 8.4% compliant  
+   HAVING triage_duration_sec < 900; -- Only 41.54% compliant  
    ```  
    - Mapped patient journeys using 39,105 timestamped events.  
    - Identified bottlenecks: **Imaging Completed** (30.7 mins avg) as slowest stage.  
